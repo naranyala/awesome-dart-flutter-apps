@@ -56,6 +56,14 @@ JavaScript, Kotlin or Electron apps wearing a Flutter label.
 - [Education & Learning](#education--learning)
 - [E-Commerce, Food & Storefronts](#e-commerce-food--storefronts)
 - [Maps, Transit & Field Data](#maps-transit--field-data)
+  - [OpenStreetMap & Field Data](#openstreetmap--field-data)
+  - [Navigation & Routing](#navigation--routing)
+  - [Outdoor & GPS Tracking](#outdoor--gps-tracking)
+  - [Marine & Boating](#marine--boating)
+  - [Public Transit](#public-transit)
+  - [Weather & Radar](#weather--radar)
+  - [Aviation](#aviation)
+  - [Map Engines & Toolkits](#map-engines--toolkits)
 - [Games](#games)
   - [Board & Card Games](#board--card-games)
   - [Arcade, Puzzle & Action](#arcade-puzzle--action)
@@ -404,9 +412,69 @@ If you only install a handful of open-source apps from this list, these are the 
 
 ## Maps, Transit & Field Data
 
+### OpenStreetMap & Field Data
+
 - **[Every Door](https://github.com/zverik/every_door)** — Dedicated app for collecting and editing thousands of POIs for OpenStreetMap. `GPL-3.0` · Android, iOS, Web · *active*
 - **[OpenStop](https://github.com/opener-next/openstop)** — Collects OpenStreetMap-compliant public-transport accessibility data. `GPL-3.0` · Android, iOS, Web · *active*
 - **[qr_wallet](https://github.com/v0l/qr_wallet)** — Offline wallet for loyalty cards, tickets and QR/barcodes, with a pure-Dart ZXing fallback for desktop. `MIT` · Android, iOS, macOS, Linux, Windows, Web · *active*
+
+### Navigation & Routing
+
+- **[bike-gps](https://github.com/patrick-mahnkopf/bike-gps)** — Cross-platform bike navigation system powered by OpenStreetMap, Mapbox GL, and OpenMapTiles. `BSD-3-Clause` · Android, iOS · *active*
+- **[Trailblaze](https://github.com/andreytakhtamirov/trailblaze)** — Scenic route planner for cycling with turn-by-turn navigation and gravel routing. `Apache-2.0` · Android, iOS · *active*
+- **[HordMaps](https://github.com/HordRicJr/HordMaps)** — Navigation app with Azure Maps: real-time GPS, voice guidance, offline caching, multi-modal routing. `MIT` · Android · *active*
+- **[nav-e](https://github/Navware-Official/nav-e)** — Navigation engine with GPS tracking, Bluetooth device management, and intelligent route planning. `GPL-3.0` · Android · *active*
+- **[SmartRoute](https://github.com/majharul-islam181/SmartRoute)** — OSM route planning with OSRM routing engine, clean architecture, and Material Design 3. `MIT` · Android, iOS · *active*
+- **[Fluttair](https://github.com/acrovato/fluttair)** — VFR flight planning and navigation moving map for pilots. `GPL-3.0` · Android, iOS · *stale*
+
+### Outdoor & GPS Tracking
+
+- **[RunFlutterRun](https://github.com/BenjaminCanape/RunFlutterRun)** — Strava-like tracker for running, walking, and cycling with real-time map and voice synthesis. `MIT` · Android, iOS · *active*
+- **[RunTiyul](https://github.com/nachem/runTiyul)** — Offline-first trail running: maps, GPX routes, GPS recording, and on-route navigation. `MIT` · Android, iOS · *active*
+- **[car-tracker-flutter](https://github.com/tentone/car-tracker-flutter)** — GPS car tracker for SMS-based Chinese devices (A11, ST-901, GT01, GT09). `MIT` · Android · *active*
+- **[wanderer-frontend](https://github.com/tomassirio/wanderer-frontend)** — Real-time pilgrimage and trip tracking with interactive maps. *(no license file)* · Android, iOS, Web · *active*
+- **[gridwalker](https://github.com/ceakins/gridwalker)** — Search & rescue with offline maps, GPS tracking, and P2P mesh sync. `MIT` · Android, iOS · *active*
+- **[Apex](https://github.com/Purukitto/apex-app)** — Motorcycle companion: GPS ride tracking, garage management, fuel logs, and maintenance. `GPL-3.0` · Android · *active*
+- **[Off](https://github.com/DanieleGiovanardi2408/off)** — Enduro/off-road rider companion with offline maps, GPS tracking, and route planning. *(license in repo)* · Android, iOS · *active*
+
+### Marine & Boating
+
+- **[BoatOS](https://github.com/bigbrainlabs/BoatOS)** — Marine navigation system for Raspberry Pi: AIS, offline charts, routing, and sensor dashboard. `GPL-3.0` · Linux (Raspberry Pi) · *active*
+- **[Sakkoja](https://github.com/traali/sakkoja)** — Offline-first boating safety app for Finnish waterways with weather radar and restrictions. `MIT` · Android · *active*
+- **[OpenCPN NextGen](https://github.com/maritime-datasystems/opencpn_next_gen)** — Mobile vector chart plotter with S-57 ENC support and live GPS/AIS overlay. `GPL-2.0` · Android · *active*
+- **[Boat Instrument](https://github.com/philseeley/boatinstrument)** — SignalK marine instrument dashboard with fully configurable boxes. `GPL-3-0` · Android, iOS, Web · *active*
+- **[Nautica](https://github.com/valeriopezone/nautica)** — Marine dashboard for SignalK sensors: GPS, wind, depth, heading, and more. *(no license file)* · Android, iOS · *active*
+
+### Public Transit
+
+- **[Trufi Core](https://github.com/trufi-association/trufi-core)** — Multi-modal public transport app framework with GTFS, OSM, and OpenTripPlanner. `GPL-3.0` · Android, iOS · *very active*
+- **[Transito](https://github.com/techsupportz/transito-flutter)** — Singapore bus timing app with real-time arrivals from LTA DataMall. `GPL-3.0` · Android, iOS · *active*
+- **[bussin](https://github.com/grubk/bussin)** — Vancouver bus tracking with GTFS-RT, live vehicle positions, and ETAs. `GPL-3.0` · Android, iOS · *active*
+- **[Prevoz](https://github.com/vualeks/prevoz)** — Podgorica public transit tracker with live bus locations and routes. `MIT` · Android, iOS · *active*
+- **[Bus Tracking Flutter](https://github.com/thisislohit/bus-tracking-flutter)** — Crowdsourced bus tracking with Google Maps and Firebase. *(no license file)* · Android · *active*
+
+### Weather & Radar
+
+- **[Rain](https://github.com/darkmoonight/Rain)** — Feature-rich weather app with OSM map, radar, air quality, and 38 languages. `MIT` · Android · *very active*
+- **[Overmorrow](https://github.com/bmaroti9/Overmorrow)** — Material Design weather app with precipitation radar and 72-hour forecast. `GPL-3.0` · Android · *very active*
+- **[Pluvia](https://github.com/SpicyChair/pluvia_weather_flutter)** — Weather app with beautiful animations, Mapbox search, and weather radar. `GPL-3.0` · Android · *active*
+- **[Cuaca](https://github.com/lingyee/cuaca)** — Malaysia weather app with live rain radar and OSM base map. `MIT` · Android · *active*
+
+### Aviation
+
+- **[Aero](https://github.com/phantomknight287/aero)** — Real-time flight tracking with interactive path visualization and Wear OS companion. *(license in repo)* · Android, iOS · *active*
+- **[Flight Tracker](https://github.com/sandyandoss/Flight-Tracker)** — Live flight tracking with Google Maps and AviationStack API. *(no license file)* · Android, iOS · *active*
+- **[Pilot Logbook](https://github.com/ken340/pilot-logbook)** — Offline-first pilot logbook with flight map visualization and statistics. `MIT` · Android, iOS · *active*
+- **[Flight Radar Widget](https://github.com/Puffin-Programs/Flight_Radar_Widget)** — Desktop flight radar with PPI sweep and OSM map view. `MIT` · Windows, macOS, Linux · *active*
+
+### Map Engines & Toolkits
+
+These are libraries, not apps, but many open-source Flutter map apps above are built on them.
+
+- **[flutter_map](https://github.com/fleaflet/flutter_map)** — Flutter's #1 non-commercial map client: easy-to-use, versatile, vendor-free, fully cross-platform, and 100% pure-Flutter. `BSD-3-Clause` · all platforms · *very active*
+- **[flutter_osm_plugin](https://github.com/liodali/osm_flutter)** — Full OpenStreetMap plugin with markers, roads, tracking, and custom tiles. `MIT` · Android, iOS, Web · *active*
+- **[mapbox_maps_flutter](https://github.com/mapbox/mapbox-maps-flutter)** — Official Mapbox Maps SDK for Flutter with highly customizable vector maps. *(Mapbox license)* · Android, iOS · *active*
+- **[flutter_map_tile_caching](https://github.com/JaffaKetchup/flutter_map_tile_caching)** — Advanced offline tile caching and bulk downloading for flutter_map. `GPL-3.0` · all platforms · *active*
 
 ---
 
